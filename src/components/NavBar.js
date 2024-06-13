@@ -37,7 +37,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}> {/* Navbar: Componente principal da barra de navegação */}
         <Container> {/* Container: Componente de layout do Bootstrap */}
           <Navbar.Brand href="/"> {/*  Navbar.Brand: Exibe o logo*/}
-            <img src={logo} alt="Logo" />
+            {scrolled && <img src={logo} alt="Logo" />}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"> {/* Navbar.Toggle: Botão para exibir/ocultar a navegação em dispositivos móveis */}
             <span className="navbar-toggler-icon"></span>
