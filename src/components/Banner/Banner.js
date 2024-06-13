@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo2 from "../assets/img/images.png";
+import logo2 from "../../assets/img/images.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import React, { useState } from 'react';
-import '../App.css';
-import logo from "../assets/img/images2.png";
+import './Banner.css';
+import logo from "../../assets/img/images2.png";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css/animate.min.css';
 
@@ -50,7 +50,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 // Adiciona classes de animação com atraso se o elemento estiver visível.
-                <div className={isVisible ? "animate__animated animate__fadeIn animate__delay-1s" : ""}>
+                <div className={isVisible ? "delay" : ""}> {/* Quando "isVisible" é verdade se ativa a classe "delay" */}
                   <img src={logo} alt="Header Img" />
                 </div>
               }

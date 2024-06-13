@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react"; /* Gerenciando o estado e efeitos colaterais */
 import { Navbar, Nav, Container } from "react-bootstrap"; /* COmponentes do bootsrap para criar uma barra de navegação */
-import logo from '../assets/img/images2.png'; /* Importa imagens que são usadas na barra de navegação */
-import search from '../assets/img/image4.png';
-import navIcon1 from '../assets/img/nav-icon1.svg'; 
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import logo from '../../assets/img/images2.png'; /* Importa imagens que são usadas na barra de navegação */
+import search from '../../assets/img/image4.png';
+import navIcon1 from '../../assets/img/nav-icon1.svg'; 
+import navIcon2 from '../../assets/img/nav-icon2.svg';
+import navIcon3 from '../../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link'; /* Um componente para criar link que rolam para âncoras dentro da mesma página*/
 import {BrowserRouter as Router} from "react-router-dom"; /* Habilita o roteamento */
+import "./NavBar.css"
 /*  */
 
 export const NavBar = () => {

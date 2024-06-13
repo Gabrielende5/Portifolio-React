@@ -1,0 +1,16 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    padding-left: 500px;
+}
+
+.text3{
+    background-color: red;
+    display: flex;
+    width: 500px;
+}
+.part1{
+    background-color: purple;
+}
