@@ -15,7 +15,7 @@ export const Conhecimento = () => {
     return (
         <div className="all2">
             
-                <div className="esquerda">
+                <div className="esquerda1">
                     <div className="texto1">
                         <span><h1>Trilha do Conhecimento</h1></span>
                     </div>
@@ -23,7 +23,7 @@ export const Conhecimento = () => {
                         <img src={trilha}></img>
                     </div>
                 </div>
-                <div className="direita">
+                <div className="direita1">
                     <div className="imagem2">
                         <img src={logo3}></img>
                     </div>

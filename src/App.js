@@ -5,7 +5,7 @@ import {Banner} from "./components/Banner/Banner";
 import {Cards} from "./components/Cards/Cards"
 import {Why} from "./components/Why/Why"
 import { Conhecimento } from './components/Conhecimento/Conhecimento';
-
+import {Contato } from "./components/Contato/Contato"
 function App() {
   return (
     <div className="App">
@@ -23,6 +23,9 @@ function App() {
       </div>
       <div>
         <Conhecimento/>
+      </div>
+      <div className='teste2'>
+        <Contato></Contato>
       </div>
     </div>  
   );
