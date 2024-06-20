@@ -1,16 +1,46 @@
-.all{
+.all1 {
+    max-width: 800px; /* ajuste o valor de acordo com a largura desejada */
+    margin: 40px auto; /* adiciona um espaço de 40px acima e abaixo e centraliza horizontalmente */
+    padding: 20px; /* adiciona um espaço de 20px entre o conteúdo e a borda */
+    text-align: center; /* centraliza o texto */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: green;
-    padding-left: 500px;
-}
 
-.text3{
-    background-color: red;
+    flex-direction: column !important;
+  }
+.tudo{
     display: flex;
-    width: 500px;
+    flex-direction: row;
+    height: 1000px
 }
-.part1{
-    background-color: purple;
+.imagem{
+    
+    width: 46%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
+.imagem img {
+    transform: rotate(30deg);
+    z-index: -1;
+}
+  .part1 {
+    display: flex;
+    margin-block: 30px;
+
+  }
+  .text0{
+    color: greenyellow;
+
+  }
+  
+  /* .text1, .text2, .text3, .text5, .text6, .text7, .text8, .text9, .text10 {
+    margin-bottom: 20px; /* adiciona um espaço de 20px entre os parágrafos */
+    /* } */
+
+
+  .content{
+    text-align: justify;
+  }
+  .text3a5, .text5, .text7, .text9{
+    color: greenyellow;
+  }
