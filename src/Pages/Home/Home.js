@@ -11,6 +11,7 @@ import card3 from "../../assets/img/images8.png"
 import logo3 from "../../assets/img/images9.png"
 import trilha from "../../assets/img/trilha-transparente.png"
 import "./Home.css"
+import { Link } from 'react-router-dom';
 const Home = () => {
     // Usa o hook useState para criar uma variável de estado chamada isHovered, inicialmente false.
     const [isHovered, setIsHovered] = useState(false);
@@ -140,7 +141,7 @@ const Home = () => {
                                 <img src={logo3}></img>
                             </div>
                             <div className="text2">
-                                <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="conhecer"> Conheça nossos cursos {isHovered && <ArrowRightCircle/>}</button>
+                                <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="conhecer"> <Link to='/Cursos'> Conheça nossos cursos {isHovered && <ArrowRightCircle/>}</Link></button>
                             </div>
                         </div>
                     

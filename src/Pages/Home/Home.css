@@ -51,6 +51,7 @@
   .banner button:hover svg {
     margin-left: 25px;
   }
+  
   .banner img {
     font: normal;
   } 
@@ -226,7 +227,10 @@
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
-    
+}
+.text2 button a{
+  text-decoration: none;
+  color: white;
 }
 .conhecer{
     border: 5px solid greenyellow;

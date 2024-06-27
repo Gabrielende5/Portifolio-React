@@ -37,7 +37,7 @@ function Contato () {
 
                                 <div className="direita-t">
                                     <button>
-                                        <a href="https://www.google.com.br/maps/place/Av.+John+Fitzgerald+Kenedy,+50+-+Jardim+das+Nações,+Taubaté+-+SP,+12030-200/@-23.0275904,-45.567985,17z/data=!3m1!4b1!4m6!3m5!1s0x94ccf8f94a2184d3:0x43756662e9bb6f5c!8m2!3d-23.0275904!4d-45.567985!16s%2Fg%2F11c299s382?entry=ttu">
+                                        <a href="https://www.google.com.br/maps/place/Av.+John+Fitzgerald+Kenedy,+50+-+Jardim+das+Nações,+Taubaté+-+SP,+12030-200/@-23.0275904,-45.567985,17z/data=!3m1!4b1!4m6!3m5!1s0x94ccf8f94a2184d3:0x43756662e9bb6f5c!8m2!3d-23.0275904!4d-45.567985!16s%2Fg%2F11c299s382?entry=ttu" target="_blank" rel="noreferrer">
                                             <img src={local}></img>
                                         </a>
                                     </button>
@@ -63,4 +63,3 @@ function Contato () {
     )
 }
 export default Contato
-

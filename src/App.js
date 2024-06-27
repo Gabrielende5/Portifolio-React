@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <RouterProvider router={Rotas}></RouterProvider>
+      <div></div>
     </div>
   );
 }
