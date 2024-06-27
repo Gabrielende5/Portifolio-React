@@ -1,0 +1,258 @@
+/* Banner */
+/************ Banner Css ************/
+.banner {
+    margin-top: 0;
+    padding: 100px 0 100px 0;
+    /* background-image: url('./assets/img/banner-bg.png'); */
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  .banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .banner button:hover svg {
+    margin-left: 25px;
+  }
+  .banner img {
+    font: normal;
+  } 
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+  .enfase{
+    color: greenyellow !important;
+  }
+  .nitido{
+   width: 500px;
+  }
+  .texto1{
+    text-align: justify;
+  }
+  .Agendar{
+    border: 5px solid greenyellow;
+    padding: 10px;
+    border-radius: 100px;
+  }
+.delay{
+    opacity: 0;
+    animation: fadeInAnimation 2s ease-in forwards;
+}
+@keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* Cards */
+/* React slick */
+/* Cards */
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px greenyellow;
+    background: linear-gradient(to bottom left, greenyellow, rgba(4, 8, 224, 0.788));
+    transition: transform 0.3s ease;
+    color: white;
+  
+  }
+  
+  .cards:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cards img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: inherit;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: white;
+    text-align: justify;
+    display: flex;
+    
+  }
+  .card-all{
+    display: flex;
+    justify-content: center;
+  }
+  .mais{
+    height: 735px;
+  }
+/* Why */
+.all1 {
+    max-width: 800px; /* ajuste o valor de acordo com a largura desejada */
+    margin: 40px auto; /* adiciona um espaço de 40px acima e abaixo e centraliza horizontalmente */
+    padding: 20px; /* adiciona um espaço de 20px entre o conteúdo e a borda */
+    text-align: center; /* centraliza o texto */
+    display: flex;
+
+    flex-direction: column !important;
+  }
+.tudo{
+    display: flex;
+    flex-direction: row;
+    height: 1000px
+}
+.imagem{
+    
+    width: 46%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.imagem img {
+    transform: rotate(30deg);
+    z-index: -1;
+}
+  .part1 {
+    display: flex;
+    margin-block: 30px;
+
+  }
+  .text0{
+    color: greenyellow;
+
+  }
+  
+  /* .text1, .text2, .text3, .text5, .text6, .text7, .text8, .text9, .text10 {
+    margin-bottom: 20px; /* adiciona um espaço de 20px entre os parágrafos */
+    /* } */
+
+
+  .content{
+    text-align: justify;
+  }
+  .text3a5, .text5, .text7, .text9{
+    color: greenyellow;
+  }
+/* Conhecimento */
+
+.all2{
+    display: flex;
+    flex-direction: row;
+}
+/* Esquerda */
+.esquerda1{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+
+}
+.texto1{   
+    margin-top: 20px;
+    
+}
+.imagem-trilha
+{
+    width: 57%;
+    
+}
+/* Direita */
+.direita1{
+    width: 65%;
+}
+.text2{
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+}
+.text2 button{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    
+}
+.conhecer{
+    border: 5px solid greenyellow;
+    padding: 10px;
+    border-radius: 100px;
+}
+.conhecer:hover svg{
+    margin-left: 25px;
+}
+.conhecer svg{
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+.imagem2{
+    height: 750px;
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem2 img {
+    transform: rotate(5deg);
+    z-index: 2;
+    width: 770px;
+    height: 770px;
+}
+

@@ -2,7 +2,7 @@ import "./Contato.css"
 import whats from "../../assets/img/whatsapp.svg"
 import local from "../../assets/img/images12.svg"
 
-export const Contato = () => {
+function Contato () {
     return(
         
     <div>
@@ -62,4 +62,5 @@ export const Contato = () => {
 
     )
 }
+export default Contato
 
