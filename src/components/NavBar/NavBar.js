@@ -28,10 +28,10 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} style={{ top: scrollTop + 'px' }}>
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="esquerda-nav">
-        <div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-          <img src={logo} alt="logo"></img>
+        <div className="nav-logo">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+          {scrolled && <img src={logo} alt="Logo" />}
         </div>
       </div>
       <div className="direita-nav">
