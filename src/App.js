@@ -8,7 +8,7 @@ import { Conhecimento } from './components/Conhecimento/Conhecimento';
 import {Contato } from "./components/Contato/Contato"
 function App() {
   return (
-    <div className="App">
+    <div className="home">
       <div>
         <NavBar/>
       </div>

@@ -8,6 +8,7 @@ import navIcon3 from '../../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link'; /* Um componente para criar link que rolam para âncoras dentro da mesma página*/
 import {BrowserRouter as Router} from "react-router-dom"; /* Habilita o roteamento */
 import "./NavBar.css"
+import { Link } from 'react-router-dom';
 /*  */
 
 export const NavBar = () => {
@@ -47,7 +48,7 @@ export const NavBar = () => {
             <Nav className="ms-auto"> {/* Nav: Agrupa os links de navegação */}
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link> {/* Nav.Link: Cada link de navegação, que atualiza o estado activeLink ao ser clicado */}
               <Nav.Link href="#QS" className={activeLink === 'QS' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('QS')}>Quem somos</Nav.Link>
-              <Nav.Link href="#cursos" className={activeLink === 'cursos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('cursos')}>Cursos</Nav.Link>
+              <Nav.Link href="#cursos" className={activeLink === 'cursos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('ursos')}>Cursos</Nav.Link>
               <Nav.Link href="#Blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('blog')}>Blog</Nav.Link>
               
               </Nav>

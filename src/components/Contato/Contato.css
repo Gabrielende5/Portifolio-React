@@ -1,6 +1,6 @@
 .all3{
     width: 100%;
-    height: 800px;
+    height: 450px;
     background: url("../../assets/img/images11.avif") no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,25 +12,85 @@
 .espaçamento{
     background-color: black;
     width: 100%;
-    height: 150px;
+    height: 75px;
 }
 .esquerda2{
-    background-color: rgb(12, 12, 131);
+    background: linear-gradient(270deg, rgb(116, 194, 0), rgb(18, 18, 169), rgb(14, 14, 131),rgb(8, 8, 82) );
     display: flex;
     z-index: 2;
-    height: 677px;
-    width: 350px;
-}
-.direita2{
-    background: linear-gradient(270deg, rgb(116, 194, 0), rgb(0, 0, 56));
-    z-index: 2;
-    display: flex;
-    width: 623px;
-    height: 677px;
+    height: 400px;
+    width: 973px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px 0px;
 }
 .footer{
     display: flex;
     border: 1px solid rgb(1, 1, 75);
     box-shadow: 0 4px 8px black;
-    height: 679px;
+    height: 402px;
+}
+.cima{
+    font-family:cursive;
+    padding: 0px 0px 10px;     
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.esquerda-direita{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.esquerda-all{
+    width: 50%;
+}
+.direita-all{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.esquerda-t{
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.esquerda-t img {
+    filter: invert(1);
+    width: 49px;
+    height: 56px;
+    display: flex;
+}
+.esquerda-t div div {
+    margin-top: 40px;
+}
+.direita-t {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.direita-t img {
+    filter: invert(1);
+    width: 51px;
+    height: 51px;
+}
+.direita-t div div{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.email{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-top: 40px;
 }
